@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "apiUrl": "http://localhost:3000/v1",
+      "httpBasicAuthCredentials": "dGVzdF84R2hnWmhvTk5kQWNFV3M5UkNzWnlr"
+    }
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal"
+}
