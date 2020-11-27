@@ -28,6 +28,7 @@ export class ApiClientModule {
         HttpModule.registerAsync({
           extraProviders: providers,
           inject: [API_CLIENT_MODULE_OPTIONS],
+          imports: options.imports,
           useFactory: (options: ApiClientModuleOptions) => ({
             baseURL: options.rootUrl.replace(/\/*$/, `/${options.version}`),
           }),
